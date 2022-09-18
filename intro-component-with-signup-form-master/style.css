@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppinsdisplay=swap');
+body{
+    background-image: url("images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.text{
+    flex: 50%;
+
+   color: white;
+   margin: auto;
+   margin-left: 7%;
+   
+}
+h1{
+    font-size:50px;
+    margin-right: 20%;
+    font-weight: bolder;
+}
+p{
+  
+    word-spacing: 2px;
+    margin-right: 15%;
+    line-height: 30px;
+}
+.table{
+    flex:50%;
+    margin-left: 0px;
+  
+    margin-right: 10%;
+}
+.form{
+    width:90%;
+    height:500px;
+ 
+   border-radius: 10px;
+  
+    margin-top: 5%;
+    color:white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color:white;
+}
+.form input{
+ margin: auto;
+ margin-top: 5%;
+ margin-left: 7%;
+ padding: 15px 20px;
+ border-radius: 5px;
+ border: 2px solid rgb(231, 218, 218);
+ padding-right: 47%;
+ font-size: 15px;
+ font-weight: bolder;
+}
+
+button{
+    width:85%;
+    height: 50px;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 7%;
+    padding: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+    border: 2px solid  hsl(154, 59%, 51%);
+  padding-top: 0%;
+    background-color: hsl(154, 59%, 51%);
+    font-size: 15px;
+    color:white;
+    font-weight: bolder;
+}
+.box{
+    width:90%;
+    height:50px;
+ 
+   border-radius: 10px;
+    
+    color:white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: hsl(248, 32%, 49%) ;
+}
+.box p{
+    margin-top:15%;
+    margin-left: 15%;
+    padding-top: 2%;
+    opacity: 0.9;
+
+}
+.form p{
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    margin-left: 10%;
+   
+}
+.box span{
+    opacity: 0.8;
+}
+ .form span{
+    color: red;
+    font-weight: bolder ;
+}
+.container{
+    width: 100%;
+    height: 700px;
+    display:flex;
+   
+}
+
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    .container{
+      flex-direction: column;
+    }
+    .box{
+        width: 100%;
+        font-size: 12px;
+    }
+    .table{
+        width: 100%;
+    }
+    .form input{
+        padding-right: 20%;
+    }
+  }
+    
+h5{
+    color: red;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 55%;
+}
