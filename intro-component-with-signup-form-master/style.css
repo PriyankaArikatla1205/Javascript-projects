@@ -72,6 +72,7 @@ button{
     color:white;
     font-weight: bolder;
 }
+
 .box{
     width:90%;
     height:50px;
@@ -131,4 +132,14 @@ h5{
     margin-top: 2%;
     margin-bottom: 0%;
     margin-left: 55%;
+}
+img{
+   
+    margin-left: -10%;
+
+    visibility: hidden;
+}
+.para{
+    color:red;
+    margin-left: 50%;
 }
