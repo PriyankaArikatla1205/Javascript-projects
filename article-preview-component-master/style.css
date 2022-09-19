@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    height:400px;
+    width:80%;
+    margin-top: 10%;
+   margin-left: 10%;
+   
+    display:flex;
+    border-radius: 10px;
+ 
+}
+.left{
+    height:400px;
+    width:70%;
+    border-radius: 10px 0  0 10px ;
+    margin-bottom: 2%;
+    background-color: aqua;
+    background-image: url("images/drawers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: left;
+
+}
+.right{
+    height:400px;
+    background-color: white;
+    border-radius: 0 10px  10px  0 ;
+}
+h1{
+    margin-right: 20%;
+    margin-left: 10%;
+    color:hsl(217, 19%, 35%);
+}
+p{
+    opacity: 0.7;
+    margin-right: 25%;
+    margin-left: 10%;
+    font-size: 15px;
+    word-spacing: 3px;
+    color:hsl(217, 19%, 35%);
+    line-height: 25px;
+}
+.details{
+    display: flex;
+}
+.details img{
+    margin-top: 5%;
+    margin-left: 10%;
+    width:10%;
+    height:10%;
+    border-radius: 50px;
+}
+.text{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 0px;
+   
+}
+.p{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.p1{
+    margin-top: 5%;
+    opacity: 0.5;
+    font-size: 15px;
+}
+.share{
+    margin-top: 7%;
+    height:50px;
+    width:50px;
+  
+    margin-left: 40%;
+    border-radius: 70px;
+    background-color:hsl(212, 23%, 69%) ;
+}
+.share img{
+    
+    width: 70%;
+    height: 70%;
+}
+#big{
+    visibility: hidden;
+}
+.box{
+    width:40%;
+    height:15%;
+    background-color:  #3E4F5F;
+    margin-top: -25%;
+    margin-left: 70%;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    
+}
+.box h4{
+    margin-left: 10%;
+    color: white;
+    word-spacing:5%;
+  
+}
+.box img{
+    width: 10%;
+    height:50%;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+.arr{
+    margin-top: -1%;
+    margin-left: 86%;
+}
