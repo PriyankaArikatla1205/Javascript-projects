@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+
+  <div class="container" id="cont">
+    <div class ="c1">
+      <img class="img" src="images/icon-star.svg">
+      
+    </div>
+    <h1 class="head1">How did we do?</h1>
+    <p class ="para"> Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+ <div class="flex-container" >
+  <button onclick="inc()">1</button>
+   <button   onclick="inc()">2</button>
+   <button   onclick="inc()">3</button>
+   <button   onclick="inc()">4</button>
+   <button   onclick="inc()">5</button>
+ </div>
+    <button  onclick="submit()" class="submit">submit</button>
+  </div>
+  <div class="container1" id="cont1">
+    <img class="img1" src="images/illustration-thank-you.svg">
+ <p class="txt">You have Selected<span id="ans">0</span>out of 5</p>
+    <h1 class="head2">Thank you!</h1>
+    <p class="para1">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+</div>
+
+  <script src="myscript.js"></script>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Priyanka</a>.
+  </div>
+</body>
+</html>
